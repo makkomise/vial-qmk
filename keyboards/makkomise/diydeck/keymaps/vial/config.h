@@ -1,0 +1,6 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
+#pragma once
+#define VIAL_KEYBOARD_UID {0x52, 0x68, 0x42, 0x0F, 0xC9, 0x51, 0x3E, 0x1B}
+#define ENCODERS_PAD_A { GP7, GP9, GP11, GP13, GP15 }
+#define ENCODERS_PAD_B { GP8, GP10, GP12, GP14, GP26 }
