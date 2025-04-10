@@ -1,7 +1,7 @@
 {
 	"name": "slothie60",
 	"vendorId":  "0x7362",
-	"productId": "0x0001",
+	"productId": "0x0002",
 	"lighting": "qmk_rgblight",
 
 	"matrix": {
@@ -11,8 +11,7 @@
   
   "layouts": {
 	    "labels":[
-		"Split Right Shift",
-		"Split Spacebar"
+		"Split Right Shift"
 		],
 		"keymap": [
 			[
@@ -92,12 +91,6 @@
 			{"w":1.25},"4,11",
 			{"w":1.25},"4,12",
 			{"w":1.25},"4,13"
-			],
-			
-			[
-			{"x":3.75,"w":2.75},"4,4\n\n\n1,1",
-			{"w":1.25},"4,6\n\n\n1,1",
-			{"w":2.25},"4,8\n\n\n1,1"
 			]
 		]
 	}
