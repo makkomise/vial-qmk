@@ -6,32 +6,12 @@
     "development_board": "promicro_rp2040",
     "features": {
         "bootmagic": true,
-        "nkro": true,
-		"rgblight": true
+        "nkro": true
     },
     "matrix_pins": {
         "direct": [
-        ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6"]
+        ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7"]
 		]
-    },
-	"processor": "RP2040",
-	"rgblight": {
-        "animations": {
-            "alternating": true,
-            "breathing": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
-        },
-        "led_count": 7,
-		"max_brightness": 120,
-		"sleep": true
-    },
-	"ws2812": {
-        "pin": "GP29",
-		"driver": "vendor"
     },
     "usb": {
         "device_version": "1.0.0",
@@ -42,13 +22,13 @@
         "LAYOUT": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
-
                 {"matrix": [0, 1], "x": 1, "y": 0},
                 {"matrix": [0, 2], "x": 2, "y": 0},
                 {"matrix": [0, 3], "x": 3, "y": 0},
 				{"matrix": [0, 4], "x": 4, "y": 0},
 				{"matrix": [0, 5], "x": 5, "y": 0},
-				{"matrix": [0, 6], "x": 6, "y": 0}
+				{"matrix": [0, 6], "x": 6, "y": 0},
+                {"matrix": [0, 7], "x": 7, "y": 0}
             ]
         }
     }
